@@ -28,9 +28,15 @@ const car = {
   isSports: true,
 };
 
-console.log(car.name);
+// console.log(car.name);
 car.name = "toyota z39x"
-console.log(car.name);
+// console.log(car.name);
 
 car.companyName = "toyota"
-console.log(car);
+// console.log(car);
+
+const students = ["salman", "muktaki", "jesmin", "faijur"]
+console.log(students);
+students.push("tahsin")
+console.log(students);
+
