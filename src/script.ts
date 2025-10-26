@@ -36,7 +36,14 @@ car.companyName = "toyota"
 // console.log(car);
 
 const students = ["salman", "muktaki", "jesmin", "faijur"]
-console.log(students);
+// console.log(students);
 students.push("tahsin")
-console.log(students);
+// console.log(students);
+
+let a ;
+
+a = "322"
+console.log(a);
+
+
 
