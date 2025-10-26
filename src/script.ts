@@ -43,7 +43,12 @@ students.push("tahsin")
 let a ;
 
 a = "322"
-console.log(a);
+// console.log(a);
+
+let social: any[] = [];
+social.push("sami")
+social.push(38)
+// console.log(social);
 
 
 

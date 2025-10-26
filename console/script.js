@@ -32,6 +32,10 @@ students.push("tahsin");
 // console.log(students);
 let a;
 a = "322";
-console.log(a);
+// console.log(a);
+let social = [];
+social.push("sami");
+social.push(38);
 export {};
+// console.log(social);
 //# sourceMappingURL=script.js.map
