@@ -75,5 +75,18 @@ myFunc = ()=>{
 
 myFunc()
 
+let numaric : Function;
 
+numaric = (a:number, b:number)=>{
+  console.log(a * b);
+}
+
+numaric(4, 56)
+
+
+let arival = (a: string, b: string, c?: string)=>{
+  console.log(`appm are ${a}, ${b}`);
+
+}
+arival()
 

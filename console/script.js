@@ -50,5 +50,14 @@ myFunc = () => {
     console.log("a and b is not for you");
 };
 myFunc();
+let numaric;
+numaric = (a, b) => {
+    console.log(a * b);
+};
+numaric(4, 56);
+let arival = (a, b, c) => {
+    console.log(`appm are ${a}, ${b}`);
+};
+arival();
 export {};
 //# sourceMappingURL=script.js.map
