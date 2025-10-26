@@ -60,7 +60,20 @@ person = {
   age: 21
 }
 
-console.log(person);
+// console.log(person);
+
+// practice of function
+
+let myFunc: Function;
+
+myFunc = ()=>{
+  console.log('hoy sala tui k');
+  console.log("a and b is not for you");
+
+
+}
+
+myFunc()
 
 
 

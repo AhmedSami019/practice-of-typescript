@@ -42,6 +42,13 @@ person = {
     name: 'Sami',
     age: 21
 };
-console.log(person);
+// console.log(person);
+// practice of function
+let myFunc;
+myFunc = () => {
+    console.log('hoy sala tui k');
+    console.log("a and b is not for you");
+};
+myFunc();
 export {};
 //# sourceMappingURL=script.js.map
