@@ -36,6 +36,12 @@ a = "322";
 let social = [];
 social.push("sami");
 social.push(38);
-export {};
 // console.log(social);
+let person;
+person = {
+    name: 'Sami',
+    age: 21
+};
+console.log(person);
+export {};
 //# sourceMappingURL=script.js.map

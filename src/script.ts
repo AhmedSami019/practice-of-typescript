@@ -50,5 +50,17 @@ social.push("sami")
 social.push(38)
 // console.log(social);
 
+let person : {
+  name: any,
+  age : any 
+}
+
+person = {
+  name : 'Sami',
+  age: 21
+}
+
+console.log(person);
+
 
 
