@@ -24,7 +24,7 @@ const car = {
 // console.log(car.name);
 car.name = "toyota z39x";
 // console.log(car.name);
-car.companyName = "toyota";
+// car.companyName = "toyota"
 // console.log(car);
 const students = ["salman", "muktaki", "jesmin", "faijur"];
 // console.log(students);
@@ -58,6 +58,12 @@ numaric(4, 56);
 let arival = (a, b, c) => {
     console.log(`appm are ${a}, ${b}`);
 };
-arival();
+arival("sami", "rakib");
+let newFunc;
+newFunc = (x, y) => {
+    return x * y;
+};
+const output = newFunc;
+console.log(output(3, 5));
 export {};
 //# sourceMappingURL=script.js.map

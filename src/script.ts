@@ -32,7 +32,7 @@ const car = {
 car.name = "toyota z39x"
 // console.log(car.name);
 
-car.companyName = "toyota"
+// car.companyName = "toyota"
 // console.log(car);
 
 const students = ["salman", "muktaki", "jesmin", "faijur"]
@@ -88,5 +88,16 @@ let arival = (a: string, b: string, c?: string)=>{
   console.log(`appm are ${a}, ${b}`);
 
 }
-arival()
+arival("sami", "rakib")
 
+let newFunc : Function;
+
+
+newFunc = (x : number, y : number)=>{
+  return x * y
+}
+
+
+const output = newFunc
+
+console.log(output(3, 5));
